@@ -1,0 +1,298 @@
+/* Hero section styles */
+.hero-section {
+    padding: 6rem 0 1rem;
+    /* Increased top padding from 1.5rem to 6rem to prevent navbar overlap */
+    min-height: 80vh;
+    /* Reduced min-height to eliminate extra bottom space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--surface);
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column-reverse;
+    /* Changed from column to column-reverse to show image first */
+    gap: 1.5rem;
+    /* Reduced gap to match reference image */
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    /* Reduced margin */
+    color: var(--text-primary);
+}
+
+.hero-name {
+    color: var(--accent-primary);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    /* Reduced margin */
+    color: var(--text-secondary);
+}
+
+.hero-description {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    /* Reduced margin */
+    color: var(--text-secondary);
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    /* Ensure icons are vertically centered */
+    justify-content: center;
+    /* Ensure icons are horizontally centered */
+    gap: 1rem;
+    margin-bottom: 0;
+    /* Remove bottom margin */
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--accent-primary);
+    color: var(--background);
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: var(--accent-secondary);
+    transform: translateY(-3px);
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    /* Added small bottom margin */
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    /* More rounded buttons */
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: var(--gradient);
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(var(--accent-primary-rgb), 0.4);
+}
+
+.resume-btn {
+    background-color: transparent;
+    border: 2px solid var(--accent-primary);
+    color: var(--accent-primary);
+}
+
+.resume-btn:hover {
+    background-color: rgba(var(--accent-primary-rgb), 0.1);
+    transform: translateY(-3px);
+}
+
+.profile-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* Reduced gap between image and social links */
+}
+
+.profile-image {
+    width: 180px;
+    /* Reduced from 220px to 180px */
+    height: 180px;
+    /* Reduced from 220px to 180px */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--accent-primary);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(var(--accent-primary-rgb), 0.2);
+}
+
+.profile-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-secondary);
+}
+
+.profile-initials {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--background);
+}
+
+/* Typing animation */
+.typing-container {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.typing-text {
+    position: relative;
+    white-space: nowrap;
+    margin-right: 0.1em;
+}
+
+.typing-text::after {
+    content: "|";
+    position: absolute;
+    right: -0.1em;
+    animation: blink 1s step-end infinite;
+}
+
+.typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    animation: typing 2.5s steps(30, end);
+    position: relative;
+}
+
+.typing-animation::after {
+    content: '|';
+    position: absolute;
+    right: -2px;
+    animation: blink-caret 0.75s step-end 3;
+    opacity: 0;
+    /* Start invisible */
+}
+
+/* Class to hide the cursor after typing completes */
+.typing-complete::after {
+    display: none;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-section {
+        padding-top: 1rem;
+        /* Further reduced top padding on desktop */
+    }
+
+    .hero-container {
+        flex-direction: row;
+        /* Changed back to row for desktop instead of column-reverse */
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        gap: 2rem;
+    }
+
+    .hero-content {
+        align-items: flex-start;
+        max-width: 60%;
+        padding-top: 0;
+        /* Remove padding that was pushing content down */
+    }
+
+    .hero-title {
+        font-size: 3.5rem;
+    }
+
+    .profile-image {
+        width: 200px;
+        /* Slightly larger on desktop but still smaller than before */
+        height: 200px;
+    }
+
+    .cta-buttons {
+        justify-content: flex-start;
+        /* Align buttons to left on desktop */
+    }
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

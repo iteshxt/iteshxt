@@ -1,0 +1,267 @@
+/* Project Detail styles */
+.project-detail {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--surface);
+}
+
+.container {
+    max-width: 64rem;
+    /* Match the 64rem from projects-container */
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Navigation bar and back button styling */
+.navigation-bar {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    color: var(--accent-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+    text-align: left;
+    border: 1px solid transparent;
+}
+
+.back-button:hover {
+    color: var(--accent-secondary);
+    background-color: var(--surface);
+    border: 1px solid var(--border-color);
+}
+
+.back-icon {
+    margin-right: 0.5rem;
+}
+
+.project-card {
+    background-color: var(--background);
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 58rem;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-content {
+    padding: 2rem;
+    text-align: left;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.project-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+    text-align: left;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-link {
+    color: var(--text-secondary);
+    transition: color 0.3s;
+}
+
+.project-link:hover {
+    color: var(--accent-primary);
+}
+
+.project-link svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.section-heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.875rem;
+    margin-top: 0;
+    text-align: left;
+}
+
+.project-overview,
+.project-details,
+.tech-container {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.project-description {
+    color: var(--text-secondary);
+    line-height: 1.625;
+    margin-bottom: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/* Job description list styling - matching Experience page */
+.job-description-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.job-description-item {
+    display: flex;
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+    text-align: left;
+}
+
+.bullet-point {
+    color: var(--accent-primary);
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+    font-size: 1rem;
+}
+
+.description-text {
+    line-height: 1.5;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/* Technologies section - matching Experience page */
+.tech-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+    text-align: left;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    text-align: left;
+}
+
+.tech-tag {
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--surface);
+    color: var(--text-secondary);
+    border-radius: 0.375rem;
+}
+
+.project-footer {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 0.375rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--accent-primary);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-secondary);
+}
+
+.not-found {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.not-found-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* GitHub button styles */
+.github-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--background);
+    color: var(--text-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.github-button:hover {
+    background-color: var(--accent-primary);
+    color: white;
+    border-color: var(--accent-primary);
+}
+
+.github-icon {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .project-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .project-links {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .project-content {
+        padding: 1.5rem;
+    }
+}
