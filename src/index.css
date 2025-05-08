@@ -31,6 +31,12 @@
 }
 
 :root {
+  /* Font variables */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+  --font-alt: 'Poppins', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
   /* Light theme variables */
   --background: #F6F4FF;
   --background-rgb: 246, 244, 255;
@@ -46,12 +52,27 @@
   --hover-color: #A782D9;
   --gradient: linear-gradient(90deg, #B980F2, #9B6EF3);
 
+  /* Add transition for smooth theme switching - faster speed */
+  transition: background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+
   /* Legacy variables - keep for backward compatibility */
   --primary: #0f172a;
   --secondary: #6366f1;
   --tertiary: #8b5cf6;
   --light-slate: #a8b2d1;
   --dark-slate: #495670;
+}
+
+*,
+*::before,
+*::after {
+  transition: background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .dark {
@@ -78,7 +99,37 @@ html {
 body {
   background-color: var(--background);
   color: var(--text-primary);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+button,
+.btn,
+nav a {
+  font-family: var(--font-alt);
+  font-weight: 500;
+}
+
+code,
+pre,
+.tech-tag,
+.skill-tag {
+  font-family: var(--font-mono);
+  letter-spacing: -0.03em;
 }
 
 .dark body {

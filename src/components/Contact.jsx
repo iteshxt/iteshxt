@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { personalInfo } from '../data/portfolioData';
-import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaEnvelope, FaLinkedinIn, FaGithub, FaCode, FaDiscord } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 import '../styles/contact.css';
 
@@ -105,7 +105,8 @@ const Contact = () => {
                                 </div>
                                 <div className="info-content">
                                     <h4>Location</h4>
-                                    <p>{personalInfo.location}</p>
+                                    <p>Noida, Uttar Pradesh, India</p>
+                                    
                                 </div>
                             </div>
 
@@ -117,18 +118,6 @@ const Contact = () => {
                                     <h4>Email</h4>
                                     <a href={`mailto:${personalInfo.email}`}>
                                         {personalInfo.email}
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="info-item">
-                                <div className="info-icon">
-                                    <FaPhone />
-                                </div>
-                                <div className="info-content">
-                                    <h4>Phone</h4>
-                                    <a href={`tel:${personalInfo.phone}`}>
-                                        {personalInfo.phone}
                                     </a>
                                 </div>
                             </div>
@@ -153,6 +142,31 @@ const Contact = () => {
                                     <h4>GitHub</h4>
                                     <a href={personalInfo.github} target="_blank" rel="noopener noreferrer">
                                         View my projects
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="info-item">
+                                <div className="info-icon">
+                                    <FaCode />
+                                </div>
+                                <div className="info-content">
+                                    <h4>LeetCode</h4>
+                                    <a href="https://leetcode.com/petrioteer" target="_blank" rel="noopener noreferrer">
+                                        Coding challenges
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="info-item">
+                                <div className="info-icon">
+                                    <FaDiscord />
+                                </div>
+                                <div className="info-content">
+                                    <h4>Discord</h4>
+                                    
+                                    <a href="https://discord.com/users/petrioteer" target="_blank" rel="noopener noreferrer">
+                                    Add me: petrioteer
                                     </a>
                                 </div>
                             </div>

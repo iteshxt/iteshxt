@@ -14,6 +14,8 @@ import './App.css';
 function App() {
   // Changed default theme from 'light' to 'dark'
   const [theme, setTheme] = useState('dark');
+  // Add transition overlay state
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   useEffect(() => {
     // Check for system preference but only apply if no saved preference exists
@@ -28,7 +30,7 @@ function App() {
     // If no saved preference and system doesn't prefer light, dark remains as default
   }, []);
 
-  // Rest of the component remains unchanged
+  // Enhanced theme effect with transition
   useEffect(() => {
     const themeVariables = getThemeVariables(theme);
     Object.entries(themeVariables).forEach(([property, value]) => {
@@ -45,14 +47,27 @@ function App() {
   }, [theme]);
 
   const toggleTheme = () => {
+    // Show transition overlay as soon as toggle starts
+    setIsTransitioning(true);
+
+    // Change theme immediately (no delay)
     setTheme(theme === 'light' ? 'dark' : 'light');
+
+    // Hide the overlay after transition completes
+    setTimeout(() => {
+      setIsTransitioning(false);
+    }, 400); // Matches the duration of our themeTransition animation
   };
 
-  // Rest of the component remains unchanged
   return (
     <Router>
-      <ScrollToTop /> {/* Added ScrollToTop component here */}
+      <ScrollToTop />
       <div className="App">
+        {/* Theme transition overlay */}
+        {isTransitioning && (
+          <div className="theme-transition-overlay"></div>
+        )}
+
         <Navbar currentTheme={theme} toggleTheme={toggleTheme} />
 
         <div className="flex-grow">

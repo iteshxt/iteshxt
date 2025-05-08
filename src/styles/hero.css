@@ -1,6 +1,6 @@
 /* Hero section styles */
 .hero-section {
-    padding: 6rem 0 1rem;
+    padding: 6rem 0 0rem;
     /* Increased top padding from 1.5rem to 6rem to prevent navbar overlap */
     min-height: 80vh;
     /* Reduced min-height to eliminate extra bottom space */
@@ -31,15 +31,31 @@
 }
 
 .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     font-weight: 700;
     margin-bottom: 0.75rem;
     /* Reduced margin */
     color: var(--text-primary);
+    letter-spacing: -0.04em;
+    line-height: 1.1;
 }
 
 .hero-name {
     color: var(--accent-primary);
+    position: relative;
+    display: inline-block;
+}
+
+.hero-name::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.15em;
+    width: 100%;
+    background-color: var(--accent-primary);
+    opacity: 0.3;
+    border-radius: 4px;
 }
 
 .hero-subtitle {
@@ -48,6 +64,7 @@
     margin-bottom: 1.5rem;
     /* Reduced margin */
     color: var(--text-secondary);
+    letter-spacing: -0.02em;
 }
 
 .hero-description {
@@ -56,6 +73,7 @@
     margin-bottom: 1.5rem;
     /* Reduced margin */
     color: var(--text-secondary);
+    max-width: 90%;
 }
 
 .social-links {
@@ -102,6 +120,8 @@
     transition: all 0.3s ease;
     text-decoration: none;
     font-weight: 500;
+    font-family: var(--font-alt);
+    letter-spacing: 0.01em;
 }
 
 .btn-primary {
@@ -244,7 +264,7 @@
 /* Media Queries */
 @media (min-width: 768px) {
     .hero-title {
-        font-size: 3rem;
+        font-size: 3.25rem;
     }
 
     .hero-subtitle {
@@ -275,7 +295,11 @@
     }
 
     .hero-title {
-        font-size: 3.5rem;
+        font-size: 3.75rem;
+    }
+
+    .hero-description {
+        max-width: 95%;
     }
 
     .profile-image {

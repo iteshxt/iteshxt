@@ -2,7 +2,7 @@ export const personalInfo = {
   firstName: "Itesh",
   lastName: "Singh",
   fullName: "Itesh Singh",
-  role: "Full Stack Developer",
+  role: "Software Engineer",
   description: "Aspiring Software Developer and Tech Enthusiast with real-world experience in full-stack development, AI integration, and automation. Eager to keep learning and contribute to projects at the intersection of software engineering and artificial intelligence.",
   location: "60 B Block, Sector 30, Noida, Uttar Pradesh 144411",
   email: "petrioteer007@gmail.com",

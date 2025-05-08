@@ -42,7 +42,7 @@ const Footer = () => {
                     </p>
 
                     <p className="footer-note">
-                        built with ❤️ by petrioteer
+                        Made with ❤️ by petrioteer
                     </p>
                 </div>
             </div>

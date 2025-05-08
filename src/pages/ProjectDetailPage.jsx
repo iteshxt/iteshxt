@@ -6,14 +6,25 @@ import '../styles/project-detail.css';
 
 const ProjectDetailPage = () => {
     const { id } = useParams();
-    const [project, setProject] = useState(null);
-    const [loading, setLoading] = useState(true);
+    // Initialize with project data instead of null to prevent jitter
+    const [project, setProject] = useState(() => {
+        // Get project data synchronously on initial render
+        return projects.find(p => p.id.toString() === id) || null;
+    });
+    // Only show loading state if project is truly not found (unlikely case)
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        // Find the project with the matching ID
+        // This effect now only runs if we need to update due to id change
         const projectData = projects.find(p => p.id.toString() === id);
-        setProject(projectData);
-        setLoading(false);
+
+        if (!projectData) {
+            // Only show loading if we can't find the project
+            setLoading(true);
+        } else {
+            setProject(projectData);
+            setLoading(false);
+        }
     }, [id]);
 
     if (loading) {
