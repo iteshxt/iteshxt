@@ -52,35 +52,35 @@ I'm a passionate Software Engineer and Tech Enthusiast with experience in full-s
 
 A multi-platform content moderation system for Discord, WhatsApp, and Telegram that automatically warns, bans, and educates users based on customizable rules.
 
-### 💭 [Dia Therapist](https://github.com/petrioteer/dia-therapist)
+### 💭 [Dia Therapist](https://github.com/iteshxt/dia-therapist)
 
 An AI-powered therapist tailored specifically for Gen Z users, providing mental health support in a format that resonates with younger audiences.
 
-### 🚲 [Velo Rapido](https://github.com/petrioteer/velo-rapido)
+### 🚲 [Velo Rapido](https://github.com/iteshxt/velo-rapido)
 
 A comprehensive web-based bike rental system with intuitive interfaces for customers and administrators.
 
-### 👕 [Sootra Clothing](https://github.com/petrioteer/sootra-clothing)
+### 👕 [Sootra Clothing](https://github.com/iteshxt/sootra-clothing)
 
 A modern e-commerce website featuring product browsing, shopping cart functionality, user authentication, and secure checkout.
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=petrioteer&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=petrioteer&layout=compact&theme=tokyonight" alt="Top Languages" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=iteshxt&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iteshxt&layout=compact&theme=tokyonight" alt="Top Languages" height="170" />
 </div>
 
 ## 🌐 Connect With Me
 
 <div align="center">
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/petrioteer)
-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/petrioteer)
-  [![HuggingFace](https://img.shields.io/badge/_HuggingFace-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/petrioteer)
-  [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/petrioteer)
-  [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/petrioteer)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:petrioteer007@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/iteshxt)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iteshxt)
+  [![HuggingFace](https://img.shields.io/badge/_HuggingFace-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/iteshxt)
+  [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/iteshxt)
+  [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/iteshxt)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iteshxt007@gmail.com)
   
 </div>
 
@@ -94,7 +94,7 @@ A modern e-commerce website featuring product browsing, shopping cart functional
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=petrioteer&color=blueviolet" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=iteshxt&color=blueviolet" alt="Profile Views" />
   <br />
   <strong>Thanks for stopping by! Feel free to reach out for collaborations or just a chat!</strong>
 </div>
