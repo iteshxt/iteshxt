@@ -1,6 +1,5 @@
-import { personalInfo } from '../data/portfolioData';
+import { personalInfo } from '../../data/portfolioData';
 import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
-import '../styles/footer.css';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();

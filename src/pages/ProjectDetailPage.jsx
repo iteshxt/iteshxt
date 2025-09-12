@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { projects } from '../data/portfolioData';
 import { FaGithub, FaArrowLeft } from 'react-icons/fa';
-import '../styles/project-detail.css';
 
 const ProjectDetailPage = () => {
     const { id } = useParams();

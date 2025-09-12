@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { navigationLinks } from '../data/portfolioData';
+import { navigationLinks } from '../../data/portfolioData';
 import { FaBars, FaTimes, FaSun, FaMoon } from 'react-icons/fa';
-import '../styles/navbar.css';
 
 const Navbar = ({ currentTheme, toggleTheme }) => {
     const [isOpen, setIsOpen] = useState(false);
