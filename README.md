@@ -97,8 +97,8 @@ An advanced AI virtual try-on system powered by **Gemini 2.5** that achieves rea
 ### 📊 GitHub Stats
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=iteshxt&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iteshxt&layout=compact&theme=midnight-purple&hide_border=true&bg_color=00000000" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=iteshxt&show_icons=true&theme=midnight-purple&hide_border=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iteshxt&layout=compact&theme=midnight-purple&hide_border=true" height="150" alt="languages graph" />
 </div>
 
 <hr />
