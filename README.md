@@ -1,100 +1,109 @@
-# Hello There👋, I'm Itesh
+<div align="left">
+  <h1>Hi, I'm Itesh 👋</h1>
+  <h3>ML Engineer & Full Stack Developer</h3>
+  <p>
+    Building scalable AI solutions and interactive web experiences. 
+    Specializing in <b>Generative AI</b>, <b>LLM Fine-Tuning</b>, and <b>On-Device Inference</b>.
+  </p>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=CBA0FC&center=true&vCenter=true&width=435&lines=Software+Engineer;Full+Stack+Developer;Tech+Enthusiast" alt="Typing SVG" />
+  <p>
+    <a href="https://iteshxt.me">
+      <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" />
+    </a>
+    <a href="https://linkedin.com/in/iteshxt">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://twitter.com/iteshxt">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+    </a>
+    <a href="mailto:iteshxt@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
 </div>
 
-## 🚀 About Me
+<hr />
 
-I'm a passionate Software Engineer and Tech Enthusiast with experience in full-stack development, AI integration, and automation. When I'm not coding, you'll find me exploring the latest tech trends or working on exciting side projects!
+### 🛠️ Tech Stack
 
-- 🔭 Currently working on: **Sootra Clothing** - A modern e-commerce platform
-- 🌱 Learning: Advanced AI integration and cloud architecture
-- 💡 Interested in: Full-stack development, AI, automation, and building useful tools
-- 🎓 Education: Pursuing tech knowledge through hands-on projects and continuous learning
+**Languages**
+<br>
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-## 🛠️ Tech Stack
+**Frameworks**
+<br>
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
-<div align="center">
-  
-### Languages
+**Tools & Platforms**
+<br>
+![MySQL](https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-  ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-  
-### Frontend
+**Machine Learning**
+<br>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![Fine-Tuning](https://img.shields.io/badge/Fine--Tuning_(LoRA,_PEFT)-FF6F00?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-000000?style=flat-square)
+![On-Device](https://img.shields.io/badge/On--Device_Deployment-4B4B4B?style=flat-square)
 
-  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  
-### Backend
+<hr />
 
-  ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-  ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-  
-### Tools & Others
+### 🔥 Featured Projects
 
-  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-  
+#### � [Sutr Clothing](https://sutr.store)
+> **Stack:** React, Node.js, Tailwind CSS, Razorpay, Ekart
+
+A full-stack e-commerce platform serving **100+ monthly customers** with stable order and payment workflows. Developed scalable microservices and a modular admin dashboard following MVC principles. Features secure payment processing via **Razorpay** and real-time logistics integration with **Ekart**, ensuring a seamless shopping experience.
+
+#### 🧠 [DiaChat](https://github.com/dialabs/dia-chat)
+> **Stack:** PyTorch, Unsloth, WebGPU, WebLLM
+
+A specialized **Gemma-3 1B** model fine-tuned to act as an empathetic and engaging conversational partner for Gen Z. This project focuses on **on-device inference** using WebGPU for privacy and speed, delivering mental health support and casual conversation with a distinct, relatable persona.
+
+#### 🤖 [Dia Moderator](https://github.com/dialabs/dia-moderator)
+> **Stack:** Node.js, Google Gemini API, PostgreSQL
+
+A comprehensive, centralized content moderation ecosystem for **Discord, WhatsApp, and Telegram**. It leverages the **Gemini API** for context-aware message analysis to automatically warn, ban, or educate users. The system is backed by a PostgreSQL database to track user infractions across platforms, ensuring a safe community environment.
+
+#### 🛍️ [FitCheckr](https://github.com/iteshxt/fitcheckr)
+> **Stack:** Next.js, Python, Flask, Chrome Extension
+
+An advanced AI virtual try-on system powered by **Gemini 2.5** that achieves realistic garment transfer with **<3s latency**. It features a seamless Chrome Extension integration for shopping sites, a robust Flask backend for image processing, and a high-performance Next.js frontend, bridging the gap between e-commerce browsing and virtual fitting.
+
+<br>
+
+<p align="right">
+  <i>Explore more projects in my <a href="https://github.com/iteshxt?tab=repositories">repositories</a>...</i>
+</p>
+
+<hr />
+
+### 📊 GitHub Stats
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=iteshxt&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iteshxt&layout=compact&theme=midnight-purple&hide_border=true&bg_color=00000000" height="150" alt="languages graph" />
 </div>
 
-## 🔥 Featured Projects
+<hr />
 
-### 🤖 [Dia Moderator](https://github.com/DiaLabs/dia-moderator)
-
-A multi-platform content moderation system for Discord, WhatsApp, and Telegram that automatically warns, bans, and educates users based on customizable rules.
-
-### 💭 [Dia Therapist](https://github.com/iteshxt/dia-therapist)
-
-An AI-powered therapist tailored specifically for Gen Z users, providing mental health support in a format that resonates with younger audiences.
-
-### 🚲 [Velo Rapido](https://github.com/iteshxt/velo-rapido)
-
-A comprehensive web-based bike rental system with intuitive interfaces for customers and administrators.
-
-### 👕 [Sootra Clothing](https://github.com/iteshxt/sootra-clothing)
-
-A modern e-commerce website featuring product browsing, shopping cart functionality, user authentication, and secure checkout.
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iteshxt&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iteshxt&layout=compact&theme=tokyonight" alt="Top Languages" height="170" />
+<div align="left">
+  <p>Thanks for dropping by! 🚀 I’m always open to collaborations and interesting conversations free to reach out using the links above!</p>
 </div>
 
-## 🌐 Connect With Me
-
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/iteshxt)
-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iteshxt)
-  [![HuggingFace](https://img.shields.io/badge/_HuggingFace-FF9D00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/iteshxt)
-  [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/iteshxt)
-  [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/iteshxt)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iteshxt007@gmail.com)
-  
-</div>
-
-## ✨ Fun Facts
-
-- 💻 I love automating tedious tasks (ask me about my LPU WiFi Auto-Login project!)
-- 🎮 When I'm not coding, I'm exploring new technologies or gaming
-- 🌟 I believe in continuous learning and staying curious
-- 🤔 My friends say I can explain complex tech concepts in simple terms
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=iteshxt&color=blueviolet" alt="Profile Views" />
-  <br />
-  <strong>Thanks for stopping by! Feel free to reach out for collaborations or just a chat!</strong>
-</div>
